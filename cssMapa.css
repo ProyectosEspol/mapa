@@ -1,0 +1,59 @@
+    .cart_submit, #lat,#lng, .cart-subtotal, #coordinates-lat-lng ,  .cart_shipping{
+    display: none
+    }
+
+     #map {
+     height: 100%;
+     width: 100%;
+     }
+
+     .cart-subtota{
+     margin-bottom: 5%;
+     }
+     .map_parent {
+     width: 300px;
+     height: 300px;
+     position: relative;
+     margin-bottom: 10%;
+     margin-right: 10%;
+     
+     }
+    .r1{
+       margin-right: 10%;
+     }
+     #cart-form{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     }
+     .b{
+     margin-top: 3%;
+     text-decoration: none;
+     padding: 10px;
+     font-weight: 600;
+     font-size: 15px;
+     color: #ffffff;
+     background-color: #E31212;
+     box-shadow:3px 2px 5px 1px #ccc;
+     border: none;
+     border-radius:5%;
+     }
+     .b:hover{
+   
+     background-color: #F26464;
+     }
+     #pin {
+     position: absolute;
+     top: 43%;
+     left: 50%;
+     }
+     #location{
+     margin-top: 10%;  
+     display: block;
+     width: 100%;
+      
+      margin-bottom: 10%;
+     }
+     .todo{
+     margin-left: 10%;
+     }
