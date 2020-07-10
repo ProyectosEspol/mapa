@@ -1,7 +1,7 @@
 <head>
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <style>
-    .cart__submit, #lat,#lng, .cart-subtotal, #coordinates-lat-lng ,  .cart__shipping{
+    .cart__submit, #lat,#lng , #coordinates-lat-lng ,  .cart__shipping{
     display: none
     }
  </style>
@@ -89,7 +89,7 @@
         </div>
         <div class="subtotal">
            <div class="cart-subtota">
-              <span class="cart-subtotal__title">{{ 'cart.general.subtotal' | t }}</span>
+    
               <span class="cart-subtotal__price" data-cart-subtotal>{{ cart.total_price | money_with_currency }}</span>
               {%- capture taxes_shipping_checkout -%}
               {%- if shop.taxes_included and shop.shipping_policy.body != blank -%}
