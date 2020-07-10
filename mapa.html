@@ -97,6 +97,9 @@
            </div>
         </div>
         <script>
+           $('.cart-subtotal').appendTo('#subtot');
+          $('.cart__shipping').appendTo('#shiping'); 
+          
            var map, infoWindow;
            var latitude, longitude;
            var geocoder;
@@ -308,8 +311,7 @@
              coordinatesDiv.classList.remove("hidden");
              
            }
-          $('.cart-subtotal').appendTo('#subtot');
-          $('.cart__shipping').appendTo('#shiping'); 
+         
            
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGhvLIKDkKTKmSUyE6EmdQwWu4uz3Fbqc&libraries=places&callback=initMap"
