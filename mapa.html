@@ -78,6 +78,9 @@
            <div class="r">
               <button id="location" type="button" onclick="geolocation()"  class=" b">Use my location </button>
            </div>
+          <div class="r">
+              <button type="submit" class=" btn-checkout custom-checkout b" value="Proceed to Checkout">Proceed to Checkout</button>
+           </div>
            <div id="coor">
               <input id="coordinates-lat-lng"  placeholder="coordinates" type="text" name="attributes[Coordinates for delivery (lat, long)]" value="">
            </div>
@@ -87,18 +90,9 @@
            </div>
            <img src="https://cdn.shopify.com/s/files/1/1693/6143/files/google-maps-pin.svg?504" id="pin" />
         </div>
-        <div class="subtotal">
-           <div class="r" id='subtot'>
-             </div>
-           <div class="r" id='shiping'>
-             </div>
-           <div class="r">
-              <button type="submit" class=" btn-checkout custom-checkout b" value="Proceed to Checkout">Proceed to Checkout</button>
-           </div>
-        </div>
+        
         <script>
-           $('.cart-subtotal').appendTo('#subtot');
-          $('.cart__shipping').appendTo('#shiping'); 
+         
           
            var map, infoWindow;
            var latitude, longitude;
