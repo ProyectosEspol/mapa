@@ -1,7 +1,7 @@
 <head>
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <style>
-    .cart__submit, #lat,#lng, #coordinates-lat-lng {
+    }#lat,#lng, #coordinates-lat-lng {
     display: none
     }
  </style>
@@ -63,7 +63,6 @@
 <body id="your-shopping-car" class="car">
   <div class="todo">
      <h3>Delivery location</h3>
-     <form action="/cart" method="post" novalidate class="cart" id="cart-form" >
         <div class="r1">
            <div class="r">    
               <input type="text" id="address-input" placeholder="Search a place on a map">
@@ -83,12 +82,7 @@
            </div>
            <img src="https://cdn.shopify.com/s/files/1/1693/6143/files/google-maps-pin.svg?504" id="pin" />
         </div>
-        <div class="subtotal">
-           
-           <div class="r">
-              <button type="submit" class=" btn-checkout custom-checkout b" value="Proceed to Checkout">Proceed to Checkout</button>
-           </div>
-        </div>
+
         <script>
            var map, infoWindow;
            var latitude, longitude;
@@ -306,7 +300,6 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGhvLIKDkKTKmSUyE6EmdQwWu4uz3Fbqc&libraries=places&callback=initMap"
            async defer></script>
         <!-- GEOLOCATION end -->     
-     </form>
      
   </div>
 </body>
